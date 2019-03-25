@@ -23,3 +23,20 @@ header{
   background-image: url('../img/back/bck1.jpg');
   background-size: cover;
 }
+.gallery{
+	text-align: center;
+	background: url('../img/gal-back.jpg');
+	background-size: cover;]
+	background-position: fixed;
+}
+.gallery img{
+	margin-top: 20px;
+	margin: 20px;
+	transition: 1s;
+	padding:15px;
+	width: 200px;
+}
+.gallery img:hover{
+	filter:grayscale(100%);
+	transform: scale(1.1);
+}
