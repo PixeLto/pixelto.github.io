@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <title>PixeLto</title>
+  </head>
+  <body>
+    <div class="preload">
+      <img src="./img/back/02-loading-blossom-2x.gif">
+    </div>
+    <section class="body">
+      <header>
+        <h1><i class="fa fa-camera-retro fa-5x"></i>PixeLto</h1>
+      </header>
+      <section id="welcomenote">
+          <p>Turning Photography Into Philosophy</p>
+          <button type="button" name="gallery">GALLERY</button>
+        </section>
+        <section id="gallery">
+          <div class="gallery">
+            <a href="./img/gal1.jpg" data-lightbox="mygallery" data-title="NPG Photography"><img src="./img/gal1_small.jpg"></a>
+			    </div>
+        </section>
+    </section>
+  </body>
+  <script>
+    $(function(){
+      $(".preload").fadeOut(3000, function(){
+        $(".body").fadeIn(1000);
+      });
+    });
+  </script>
+</html>

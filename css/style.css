@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+}
+.body{
+  display: none;
+}
+header{
+  text-align: inherit;
+  border-bottom: 1px solid gray;
+  font-family: 'Arvo', serif;
+}
+#welcomenote{
+  height: 300px;
+}
+#welcomenote p{
+  margin-top: 150px;
+}
+#welcomenote button{
+  border: none;
+  background-color: transparent;
+}
+#gallery{
+  background-image: url('../img/back/bck1.jpg');
+  background-size: cover;
+}
