@@ -23,12 +23,10 @@ header{
 #gallery{
   background-image: url('../img/back/bck1.jpg');
   background-size: cover;
+  width: 100%;
 }
 .gallery{
 	text-align: center;
-	background: url('../img/gal-back.jpg');
-	background-size: cover;]
-	background-position: fixed;
 }
 .gallery img{
 	margin-top: 20px;
