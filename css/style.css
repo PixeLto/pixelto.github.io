@@ -6,7 +6,6 @@ body{
 }
 header{
   text-align: inherit;
-  border-bottom: 1px solid gray;
   font-family: 'Arvo', serif;
 }
 #welcomenote{
@@ -15,10 +14,12 @@ header{
 #welcomenote p{
   margin-top: 200px;
 }
-#welcomenote button{
-  border: none;
-  background-color: transparent;
-  margin-top: 230px;
+#welcomenote a{
+  color: inherit;
+  margin-top: 300px;
+}
+#welcomenote a:hover{
+  color: blue;
 }
 #gallery{
   background-image: url('../img/back/bck1.jpg');
