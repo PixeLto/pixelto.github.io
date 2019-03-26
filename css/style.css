@@ -10,14 +10,15 @@ header{
   font-family: 'Arvo', serif;
 }
 #welcomenote{
-  height: 300px;
+  height: 400px;
 }
 #welcomenote p{
-  margin-top: 150px;
+  margin-top: 200px;
 }
 #welcomenote button{
   border: none;
   background-color: transparent;
+  margin-top: 230px;
 }
 #gallery{
   background-image: url('../img/back/bck1.jpg');

@@ -20,18 +20,20 @@
       </header>
       <section id="welcomenote">
           <p>Turning Photography Into Philosophy</p>
-          <button type="button" name="gallery">GALLERY</button>
+          <a href="#gallery"><button type="button" name="gallery">GALLERY</button></a>
         </section>
         <section id="gallery">
+          <a name="gallery"></a>
           <div class="gallery">
-            <a href="./img/gal1.jpg" data-lightbox="mygallery" data-title="NPG Photography"><img src="./img/gal1_small.jpg"></a>
+            <a href="./img/bhebheza.jpg" data-lightbox="mygallery" data-title="NPG Photography"><img src="./img/small/bhebheza.small.jpg"></a>
+            <a href="./img/chits.jpg" data-lightbox="mygallery" data-title="Chitungo"><img src="./img/small/chits.small.jpg"></a>
 			    </div>
         </section>
     </section>
   </body>
   <script>
     $(function(){
-      $(".preload").fadeOut(3000, function(){
+      $(".preload").fadeOut(3500, function(){
         $(".body").fadeIn(1000);
       });
     });
